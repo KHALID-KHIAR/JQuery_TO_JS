@@ -1,0 +1,41 @@
+body{
+    background-color: #2e1197;
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+width: 50%;
+margin: 50px auto;
+gap: 10px;
+}
+button{
+    color:black;
+    background-color:#2FE344 ;
+    padding: 7px;
+    border:none;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 17%;
+    overflow: hidden;
+}
+button:hover{
+    background-color:#33fc47 ; 
+}
+button:active{
+    scale: 0.55;
+    transition: .4s;
+}
+#elt1{
+  margin:50px auto;
+  width: 300px;
+  height: 250px;
+  background-color: #F79307;
+  display: flex;
+  justify-content: center;
+}
+#elt svg{
+    display: block;
+    margin: auto;
+}
