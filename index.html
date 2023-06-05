@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="./style.css" >
+    <script src="./script.js" ></script>
+  <title>JQuery Animation in JavaScript</title>
+</head>
+<body>
+	<div class="container">
+		<button id="btn-__" onClick="hide('#elt1')">Hide </button>
+		<button id="btn0__" onclick="show('#elt1')">Show </button>
+		<button id="btn2__" onClick="fadeOut('#elt1')">Fade Out  </button>
+		<button id="btn1__" onclick="fadeIn('#elt1')">Fade In  </button>
+		<button id="btn6__" onclick="slideUp('#elt1')">Slide Up  </button>
+		<button id="btn5__" onclick="slideDown('#elt1',250)">Slide Down  </button>
+		<button id="btn3__" onclick='html("#elt1",`
+		<svg viewBox="0 0 24 24" width="80%" height="70%" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 20V4L18 10M9 7L6 10" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>`)' 
+        >HTML  </button>
+		<button id="btn8__" onclick="cssMultiple('#elt1','transform','rotate(90deg)','backgroundColor','#F06C54','transition','1s')">CSS   </button>
+		<!-- <button id="btn9" onclick="css('#elt1','backgroundColor','#AD6A2A')">CSS </button> -->
+		<!-- <button id="btn4__" onclick="offset('#elt1')">Offset  </button> -->
+		<!-- <button id="btn7__" onclick="Ajax()">Ajax  </button> -->
+	</div>
+    <div id="elt1"></div>
+</body>
+</html>
