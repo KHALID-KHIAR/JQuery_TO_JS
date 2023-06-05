@@ -1,5 +1,3 @@
-
-
 function show(elt){
     let item = document.querySelector(elt)
     item.style.display='block' ;
