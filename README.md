@@ -1,2 +1,2 @@
 # JQuery_TO_JS
-JQuery most common animation function in Vanilla JS
+Most common used JQuery animation function in Vanilla JavaScript.
