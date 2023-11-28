@@ -1,6 +1,7 @@
 function show(elt){
     let item = document.querySelector(elt)
     item.style.display='block' ;
+    item.style.opacity =1 ;
 }
 function hide(elt){
     let item = document.querySelector(elt)
